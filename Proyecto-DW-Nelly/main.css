@@ -1,0 +1,103 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+*{
+ font-family: 'Times New Roman', Times, serif;
+
+}
+
+*{
+  background-color: bisque;
+}
+
+
+body{
+  display: flex;
+  flex-direction: column;
+  height: 600 px;
+  padding: 1em;
+
+}
+
+
+
+
+header h1 {
+  background-color: rgb(183, 145, 170);
+  text-transform: uppercase;
+  font-style: italic;
+  margin: 30px;
+  padding: 10px 20px;
+  text-align: center;
+
+  border-width: 10px;
+  border-color: rgb(243, 6, 172);
+  border-style: groove;
+}
+ header img{
+  position: relative;
+  left: 10px;
+  top: 10px;
+  
+ }
+
+li {
+    margin: 5px 10px 12px 15px;
+    background-color: rgb(219, 177, 210);
+    display: inline;
+    list-style-type: none;
+    border-style: ridge;
+    border-color: rgb(243, 6, 172)
+
+    
+    }
+
+ul{
+    margin: 5px 10px 12px 15px;
+    list-style-type: none;
+}
+
+div a {
+    margin: 5px 10px 12px 15px;
+}
+
+.bordesRedondeados {
+  border-radius: 100px;
+  
+}
+
+.imgChica {
+  width: 200px;
+  height: 200px;
+  margin-top: 0px;
+}
+
+img {
+    width: 1200px;
+    height: 200px;
+    position: absolute;
+    float: inline-start;
+    left: 850px;
+    top: 200px;
+    z-index: 1;
+}
+
+
+
+a {
+    font-size: 14px;
+    text-align: center;
+    display: inline;
+    color: white;
+    background-color: SkyBlue;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+  a:hover {
+    background-color: RoyalBlue;
+  }
+
